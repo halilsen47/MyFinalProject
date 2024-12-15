@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    internal interface ICustomerDal:IEntityRepository<Customer>
+    public interface IOrderDal : IEntityRepository<Order>
     {
-        
+
     }
 }
